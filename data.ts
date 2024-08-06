@@ -1,8 +1,4 @@
-import {
-  BlogCardProps,
-  FaqCardProps,
-  ServiceDetailType,
-} from "./types";
+import { BlogCardProps, FaqCardProps, ServiceDetailType } from "./types";
 
 // Faqs
 export const homePageFaq: FaqCardProps[] = [
@@ -822,7 +818,8 @@ export const serviceDetail: ServiceDetailType = {
         "Connect with Us to Grow Together. Because Together Is Always Better!",
     },
     services: {
-      title: "Our 360 Degree Digital Marketing Services In Dubai",
+      title:
+        "We Offer Multiple Ways to Fill Your Sales Funnel with Quality Leads!",
       description:
         "Looking to power up your digital strategy? Aun Digital offers a wide range of digital marketing services in Dubai that work together to attract, delight, and convert prospects into qualified leads. Toss in our proprietary tech-powered suite of tools, and your campaign is unbeatable.",
       content: [
@@ -7025,9 +7022,7 @@ export const data = [
     summary:
       "SCA announces Eid Al Fitr Holidays in UAE for financial markets including Dubai Financial Market (DFM), Abu Dhabi Securities Exchange (ADX), and Dubai Gold and Commodities Exchange (DGCX).",
     home: "SCA Announces Eid Al Fitr Holidays in UAE For The Financial Markets",
-    content: [
-      "FAQs",
-    ],
+    content: ["FAQs"],
   },
   {
     title:
@@ -7132,9 +7127,7 @@ export const data = [
     summary:
       "Explore the top 10 essential social media metrics to track in 2024 to build a strong social media presence and grow your business online.",
     home: "10 Essential Social Media Metrics to Track in 2024",
-    content: [
-      "10 Essential Social Media Metrics to Track",
-    ],
+    content: ["10 Essential Social Media Metrics to Track"],
   },
 
   {
@@ -7211,8 +7204,7 @@ export const data = [
     date: "February 14, 2024",
     href: "/blogs/wordpress-web-development-trends/",
     pageKey: "wordpress-web-development-trends",
-    summary:
-      "",
+    summary: "",
     home: "10 Types of Call to Action (CTAs) to Boost Website Conversions",
     content: [
       "What is a Call to Action (CTA) Button?",
@@ -7230,15 +7222,13 @@ export const data = [
     key: 7,
     href: "/blogs/best-home-internet-packages-dubai/",
     pageKey: "best-home-internet-packages-dubai",
-    summary:
-      "",
+    summary: "",
     home: "Best Home Internet Packages and Plans in Dubai 2024",
-    content: [
-      "Etisalat Home Internet Packages: E-Life Express Lane",
-    ],
+    content: ["Etisalat Home Internet Packages: E-Life Express Lane"],
   },
   {
-    title: "10 Best AI Tools for Businesses To Enhance Productivity and Drive Sales",
+    title:
+      "10 Best AI Tools for Businesses To Enhance Productivity and Drive Sales",
     description:
       "Here’s a list of the best home internet packages in Dubai, we have analyzed Du internet packages and Etisalat home internet packages in Dubai to help you select the best one for your home.",
     imageSrc: "/blog/blog24.png",
@@ -7246,12 +7236,9 @@ export const data = [
     key: 6,
     href: "/blogs/best-ai-tools-for-businesses/",
     pageKey: "best-ai-tools-for-businesses",
-    summary:
-      "",
+    summary: "",
     home: "Google Unveils June 2024 Spam Update",
-    content: [
-      "10 Best AI Tools for Businesses",
-    ],
+    content: ["10 Best AI Tools for Businesses"],
   },
 
   {
@@ -7264,12 +7251,9 @@ export const data = [
     date: "February 12, 2024",
     href: "/blogs/best-practices-for-secure-web-development/",
     pageKey: "best-practices-for-secure-web-development",
-    summary:
-      "",
+    summary: "",
     home: "Best Practices for Secure Web Development",
-    content: [
-      "Final Word",
-    ],
+    content: ["Final Word"],
   },
 
   // {

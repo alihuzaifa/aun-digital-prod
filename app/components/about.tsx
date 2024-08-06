@@ -74,11 +74,13 @@ export default function About() {
                       key={index}
                       className="basis-1/2 sm:basis-1/3 md:basis-1/3 lg:basis-1/4"
                     >
-                      <div
-                        className={`w-[130px] h-[120px] object-cover relative m-auto`}
-                      >
-                        <Image src={_} fill alt="" />
-                      </div>
+                      <Image
+                        src={_}
+                        alt="Award Image"
+                        width={120}
+                        height={100}
+                        layout="responsive"
+                      />
                     </CarouselItem>
                   ))}
                 </CarouselContent>
