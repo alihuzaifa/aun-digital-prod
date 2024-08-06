@@ -83,7 +83,9 @@ export default function Hero({
                 ))}
               </CarouselContent>
             </Carousel>
-            <Heading subtitle={description} isCenter={false} />
+            <div className="mt-[-60px]">
+              <Heading subtitle={description} isCenter={false} />
+            </div>
             <div className="flex gap-x-3">
               <Link href={"tel:+97145471297"}>
                 <CustomButton title="More About Us" />

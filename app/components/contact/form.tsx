@@ -1,6 +1,5 @@
 "use client";
 import { useFormik } from "formik";
-import ReCAPTCHA from "react-google-recaptcha";
 import { useState } from "react";
 import * as Yup from "yup";
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -18,7 +17,7 @@ const validationSchema = Yup.object({
   phone: Yup.string().required("Contact Number is required"),
   budget: Yup.string().required("Budget is required"),
   message: Yup.string().required("Message is required"),
-  recaptcha: Yup.string().required("ReCAPTCHA validation is required"),
+  // recaptcha: Yup.string().required("ReCAPTCHA validation is required"),
 });
 
 export default function ContactForm({
@@ -32,10 +31,10 @@ export default function ContactForm({
   const router = useRouter()
   const [loader, setLoader] = useState(false);
 
-  const handleRecaptchaChange = (value: any) => {
-    setRecaptchaValue(value);
-    formik.setFieldValue("recaptcha", value);
-  };
+  // const handleRecaptchaChange = (value: any) => {
+  //   setRecaptchaValue(value);
+  //   formik.setFieldValue("recaptcha", value);
+  // };
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -43,7 +42,7 @@ export default function ContactForm({
       phone: "",
       budget: "",
       message: "",
-      recaptcha: "",
+      // recaptcha: "",
     },
     validationSchema,
     onSubmit: async (values) => {
@@ -188,7 +187,7 @@ export default function ContactForm({
             </div>
           ) : null}
         </div>
-        <div className="relative flex items-center">
+        {/* <div className="relative flex items-center">
           <ReCAPTCHA
             sitekey="YOUR_RECAPTCHA_SITE_KEY"
             onChange={handleRecaptchaChange}
@@ -198,7 +197,7 @@ export default function ContactForm({
               {formik.errors.recaptcha}
             </div>
           ) : null}
-        </div>
+        </div> */}
         <div className="flex items-center mt-3">
           <CustomButton
             title={loader ? "" : "Get Started"}

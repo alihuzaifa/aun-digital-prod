@@ -1,6 +1,5 @@
 import {
   BlogCardProps,
-  CaseStudyTypes,
   FaqCardProps,
   ServiceDetailType,
 } from "./types";
@@ -2201,25 +2200,25 @@ export const serviceDetail: ServiceDetailType = {
         "Aun Digital Gets the Competitive Edge In the .SharePoint Web Development Industry",
       content: [
         {
-          image: "/service-detail/support/drupal/1.png",
+          image: "/service-detail/support/sharepoint/1.png",
           title: "SharePoint Migration",
           description:
             "We understand that moving to a different or new environment may seem daunting at first glance. But with our SharePoint development services, you can set your mind at rest. Whether you wish to migrate third-party solutions to SharePoint or SharePoint solutions to a newer version of the platform or to the cloud, we ensure smoother migration without data loss or minimal disruption. Experts at our company can evaluate your existing infrastructure and then decide the best method to migrate your data in a cost-effective way.",
         },
         {
-          image: "",
+          image: "/service-detail/support/sharepoint/2.png",
           title: "SharePoint Integration",
           description:
             "Do you feel like there is a gap between SharePoint solutions and your other existing business tools? No worries. Our experts understand your business goals and needs; thus trying to offer you as many integrations as possible. Whether you wish to feed CRM data into SharePoint or generate automated workflows from ERP system updates, our SharePoint developers are here to help you. Different applications with which our team can integrate SharePoint include ERP, CRM, Jira, BI, etc.",
         },
         {
-          image: "",
+          image: "/service-detail/support/sharepoint/3.png",
           title: "SharePoint Consulting",
           description:
             "Our experienced talent pool comprises SharePoint engineers and developers that provide consulting services to businesses of all sizes, be it a small-scale startup or a large-scale enterprise. These professionals offer assistance to clients at every step of the way, from helping them define dashboard and features to arming them with the best strategy for web part customization. Not only this, but these professionals also determine the nature of the project and assess the complexities involved to establish clear development timelines and expectations.",
         },
         {
-          image: "",
+          image: "/service-detail/support/sharepoint/4.png",
           title: "SharePoint Workflow Development",
           description:
             "At Aun Digital, our SharePoint development team possesses rich expertise in designing and integrating customized workflows that eliminate redundancy and automate business operations. Our experts are well-versed in implementing status workflows, approval workflows, and notification workflows. This, in turn, leads to improved collaboration and increased productivity, thereby boosting operational efficiency. So, trust our SharePoint developers to save your valuable time, allowing you to get more done efficiently and effortlessly.",
