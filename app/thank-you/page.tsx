@@ -47,7 +47,7 @@ export default function Contact() {
             <div className="md:w-[50%] lg:w-[50%] w-full text-start flex flex-col">
               <Heading
                 isH1
-                title="Thankyou for submitting your inquiry"
+                title="Thank you for submitting your inquiry"
                 subtitle="We Will Get In Touch With You Soon..."
                 isCenter={false}
               />

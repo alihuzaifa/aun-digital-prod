@@ -13,6 +13,8 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import Heading from "./heading";
+import React from "react";
+import Autoplay from "embla-carousel-autoplay";
 
 export const iconBoxes = [
   {
@@ -80,6 +82,9 @@ const fadeInAnimationVariants = {
 };
 
 const ProcessAndDevelopment = () => {
+  const plugin = React.useRef(
+    Autoplay({ delay: 3000, stopOnInteraction: true })
+  );
   return (
     <section className="my-20">
       <div className="my-20">
@@ -94,6 +99,9 @@ const ProcessAndDevelopment = () => {
           align: "start",
           loop: true,
         }}
+        plugins={[plugin.current]}
+        onMouseEnter={plugin.current.stop}
+        onMouseLeave={plugin.current.reset}
         className="w-full"
       >
         <CarouselContent>

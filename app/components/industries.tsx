@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function Industries() {
   const plugin = React.useRef(
-    Autoplay({ delay: 1000, stopOnInteraction: true })
+    Autoplay({ delay: 3000, stopOnInteraction: true })
   );
   const industries = [
     

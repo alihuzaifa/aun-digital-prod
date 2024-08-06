@@ -15,7 +15,7 @@ export default function CaseStudies({
   title?: string;
 }) {
   const plugin = React.useRef(
-    Autoplay({ delay: 1000, stopOnInteraction: true })
+    Autoplay({ delay: 3000, stopOnInteraction: true })
   );
   const data = [
     {
