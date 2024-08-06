@@ -21,6 +21,7 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 import Heading from "../heading";
 import ContactForm from "./form";
+import { MapPin } from "lucide-react";
 interface NavigationMenuItemProps {
   href: string;
   icon: React.ReactNode;
@@ -174,11 +175,7 @@ export default function Contact() {
               <NavigationMenuList className="flex-col items-start space-y-2">
                 <NavigationMenuItem className="text-sm">
                   <span className="gap-2 flex">
-                    <FaLocationDot
-                      size={20}
-                      className="ms-[-5px]"
-                      color="#44326e"
-                    />
+                    <MapPin size={20} color="#44326e" className="ms-[-5px]" />
                     <span className="block">
                       Office # 1701, Prime Tower - Business Bay - Dubai
                     </span>
@@ -205,11 +202,7 @@ export default function Contact() {
               <NavigationMenuList className="flex-col items-start space-y-2">
                 <NavigationMenuItem className="text-sm">
                   <span className="gap-2 flex">
-                    <FaLocationDot
-                      className="ms-[-5px]"
-                      size={20}
-                      color="#44326e"
-                    />
+                    <MapPin size={20} color="#44326e" className="ms-[-5px]" />
                     <span className="block">
                       447 Broadway New York, NY 10013
                     </span>
@@ -236,11 +229,7 @@ export default function Contact() {
               <NavigationMenuList className="flex-col items-start space-y-2">
                 <NavigationMenuItem className="text-sm">
                   <span className="gap-2 flex">
-                    <FaLocationDot
-                      className="ms-[-5px]"
-                      size={20}
-                      color="#44326e"
-                    />
+                    <MapPin size={20} color="#44326e" className="ms-[-5px]" />
                     <span className="block">
                       Office # 907, Business Avenue, Shahrah-e-Faisal Block 6,
                       Karachi Pakistan

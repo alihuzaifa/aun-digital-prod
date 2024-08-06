@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export default function Service() {
   const plugin = React.useRef(
-    Autoplay({ delay: 1000, stopOnInteraction: true })
+    Autoplay({ delay: 3000, stopOnInteraction: true })
   );
   const data = [
     {
@@ -22,11 +22,39 @@ export default function Service() {
       heading: "Marketing Beyond Boundaries",
       content: [
         {
-          title: "UI UX Design Services",
+          title: "Digital Marketing",
+          url: "/services/digital-marketing-agency-dubai",
+        },
+        {
+          title: "Search Engine Optimization",
+          url: "/services/seo-agency-dubai",
+        },
+        {
+          title: "Social Media Marketing",
+          url: "/services/social-media-agency-dubai",
+        },
+        {
+          title: "PPC Marketing",
+          url: "/services/ppc-pay-per-click-agency-dubai",
+        },
+        {
+          title: "Email Marketing",
+          url: "/services/email-marketing-dubai",
+        },
+      ],
+    },
+    {
+      title: "UI UX Designing",
+      description:
+        "As the best web development company in Dubai, we believe in the power of impressive UI/UX. Our UI/UX experts strategize everything by combining their expertise and your business requirements to deliver stellar experience. Our design process goes through rigorous design testing and meets your business goals to provide a high-quality user experience. Contact us for the following services.",
+      heading: "Attention to-detail Design",
+      content: [
+        {
+          title: "UI UX Design",
           url: "/services/ui-ux-design-agency-dubai",
         },
         {
-          title: "PSD To HTM",
+          title: "PSD To HTML",
           url: "/services/psd-to-html-dubai",
         },
         {
@@ -44,38 +72,38 @@ export default function Service() {
       ],
     },
     {
-      title: "UI UX Designing",
+      title: "Design & Development",
       description:
         "As the best web development company in Dubai, we believe in the power of impressive UI/UX. Our UI/UX experts strategize everything by combining their expertise and your business requirements to deliver stellar experience. Our design process goes through rigorous design testing and meets your business goals to provide a high-quality user experience. Contact us for the following services.",
-      heading: "Attention to-detail Design",
+      heading: "Revitalize  Your Web  Presence ",
       content: [
-        {
-          title: "Website Development",
-          url: "/dubai-website-design-and-development/",
-        },
         {
           title: "Wordpress Development",
           url: "/services/wordpress-website-design-dubai",
         },
         {
-          title: "CMS Website",
+          title: "Php Development",
+          url: "/services/php-development-dubai",
+        },
+        {
+          title: "CMS Web Development",
           url: "/services/cms-website-development-dubai",
         },
         {
-          title: "Web Maintenance",
-          url: "/services/web-maintenance-dubai",
+          title: "Python Development",
+          url: "/services/python-development-dubai",
         },
         {
-          title: "Logo Design",
-          url: "/services/logo-design-dubai",
+          title: "Web Maintainence",
+          url: "/services/web-maintenance-dubai",
         },
       ],
     },
     {
-      title: "Design & Development",
+      title: "Copywriting",
       description:
-        "As the best web development company in Dubai, we believe in the power of impressive UI/UX. Our UI/UX experts strategize everything by combining their expertise and your business requirements to deliver stellar experience. Our design process goes through rigorous design testing and meets your business goals to provide a high-quality user experience. Contact us for the following services.",
-      heading: "Revitalize  Your Web  Presence ",
+        "Copywriting is not just about conveying the brand message, it is about writing conversion-focused content smartly that can drive traffic to the website through effective use of SEO strategies. At Aun Digital, we have got a team of skillful writers who have years of writing catchphrases that actually convert! Trust us to put across your ideas and brand message in the most effective and meaningful way!",
+      heading: "Innovative Writing  Solutions ",
       content: [
         {
           title: "Copywriting Service",
@@ -84,10 +112,6 @@ export default function Service() {
         {
           title: "Website Copywriting",
           url: "/services/website-copywriting",
-        },
-        {
-          title: "CMS Website",
-          url: "/services/cms-website-development-dubai",
         },
         {
           title: "Blog Writing",
@@ -100,14 +124,14 @@ export default function Service() {
       ],
     },
     {
-      title: "Copywriting",
+      title: "Brand Identity",
       description:
-        "Copywriting is not just about conveying the brand message, it is about writing conversion-focused content smartly that can drive traffic to the website through effective use of SEO strategies. At Aun Digital, we have got a team of skillful writers who have years of writing catchphrases that actually convert! Trust us to put across your ideas and brand message in the most effective and meaningful way!",
-      heading: "Innovative Writing  Solutions ",
+        "Aun Digital is one of the leading communication and branding agencies based in Dubai. Our branding and communication experts provide the businesses with personalised visuals and improved communication mediums. From the design standpoint to the copywriting, we guarantee to create an emotional association of your brand with the customers. We revamp your brand’s dullness into a colourful one with following branding services.",
+      heading: "Refining Your Brand Essence ",
       content: [
         {
           title: "Branding Services",
-          url: "/services/logo-design-dubai",
+          url: "/services/branding-agency-dubai",
         },
         {
           title: "Logo Design Services",
@@ -128,58 +152,30 @@ export default function Service() {
       ],
     },
     {
-      title: "Brand Identity",
-      description:
-        "Aun Digital is one of the leading communication and branding agencies based in Dubai. Our branding and communication experts provide the businesses with personalised visuals and improved communication mediums. From the design standpoint to the copywriting, we guarantee to create an emotional association of your brand with the customers. We revamp your brand’s dullness into a colourful one with following branding services.",
-      heading: "Refining Your Brand Essence ",
-      content: [
-        {
-          title: "Mobile App Development",
-          url: "/services/logo-design-dubai",
-        },
-        {
-          title: "IOS App Development",
-          url: "/services/logo-design-dubai",
-        },
-        {
-          title: "React App Development",
-          url: "/services/brochure-design-dubai",
-        },
-        {
-          title: "PPT Design Services",
-          url: "/services/ppt-design-dubai",
-        },
-        {
-          title: "Infographics Design",
-          url: "/services/infographics-design-services-dubai",
-        },
-      ],
-    },
-    {
       title: "App Development",
       description:
         "Aun Digital specialises in delivering engaging and responsive mobile application solutions that are visually appealing and tech-driven. With a focus on performance, efficiency, and enhanced user experience, Aun Digital knows how to convert your idea into a winning app. Be it the android one, iOS, hybrid, or cross-platform application, our dedicated mobile app developers have set the benchmark in all the industries across Dubai.",
       heading: "Sleek App Design Solutions",
       content: [
         {
-          title: "E Commerce Website",
-          url: "/services/e-commerce-solutions",
+          title: "Mobile App Development",
+          url: "/services/mobile-app-development-dubai",
         },
         {
-          title: "Woo Commerce Development",
-          url: "/services/woo-commerce-development",
+          title: "IOS Application Development",
+          url: "/services/ios-app-development-service",
         },
         {
-          title: "Shopify Development",
-          url: "/services/shopify-development-dubai",
+          title: "React Application Development",
+          url: "/services/react-app-development-services",
         },
         {
-          title: "Big Commerce Development",
-          url: "/services/big-commerce-development-service-dubai",
+          title: "Flutter Application Development",
+          url: "/services/flutter-app-development-services",
         },
         {
-          title: "Magento Ecommerce",
-          url: "/services/magento-ecommerce-development",
+          title: "Android App Development",
+          url: "/services/android-app-development-dubai",
         },
       ],
     },
@@ -222,23 +218,6 @@ export default function Service() {
           title: "It Resource Outsourcing",
           url: "services/it-resource-outsourcing",
         },
-        {
-          title: "Mirakl Development",
-          url: "services/mirakl-development-dubai",
-        },
-        {
-          title: "ASO App Store",
-          url: "services/aso-app-store-optimization-dubai",
-        },
-        {
-          title: "Influencer Marketing",
-          url: "services/influencer-marketing-agency-dubai",
-        },
-
-        {
-          title: "PHP Development",
-          url: "services/php-development-dubai",
-        },
       ],
     },
   ];
@@ -263,7 +242,7 @@ export default function Service() {
                     <ul className="flex flex-wrap list-disc">
                       {content?.map(({ title, url }, index) => (
                         <li className="w-1/2 p-2 whitespace-nowrap" key={index}>
-                          <Link href={url}  className="">
+                          <Link href={url} className="">
                             <span className="">{title}</span>
                           </Link>
                         </li>

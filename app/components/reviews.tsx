@@ -6,11 +6,14 @@ import Image from "next/image";
 export default function Reviews() {
   return (
     <>
-      <Heading isCenter={false} title="Rating & Reviews" isblue="Trusted By people" />
+      <p className="text-md md:text-lg text-start mb-[-20px]  ms-[1px]">
+        Rating & Reviews
+      </p>
+      <Heading isCenter={false} title="Trusted By people" />
       <div className="mb-10" />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 text-white gap-x-5 gap-y-7">
         {/* card1 id */}
-        <div className="py-7 px-5 bg-[#44326e] mx-5 rounded-3xl" >
+        <div className="py-7 px-5 bg-[#44326e] mx-5 rounded-3xl">
           <div className="flex gap-x-3">
             <Star />
             <Star />
@@ -67,7 +70,7 @@ export default function Reviews() {
           </div>
         </div>
         {/* card3 id */}
-        <div className="py-7 px-5 bg-[#44326e] mx-5 rounded-3xl" >
+        <div className="py-7 px-5 bg-[#44326e] mx-5 rounded-3xl">
           <div className="flex gap-x-3">
             <Star />
             <Star />

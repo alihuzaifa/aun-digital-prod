@@ -52,7 +52,7 @@ export const iconBoxes = [
     iconBase: "bg-[#FFF3DC]",
     title: "Testing",
     description:
-      "In this phase, we perform multiple tests, such as performance usability & functionality tests, to ensure seamless performance across devices.",
+      "In this phase, we perform multiple tests, such as performance usability & functionality tests, to ensure seamless performance.",
     shadow: "shadow-[0_1px_6px_rgba(61,65,84,.15),0_5px_0_0_#FFAF13]",
   },
   {
@@ -60,7 +60,7 @@ export const iconBoxes = [
     iconBase: "bg-[#FAF1FF]",
     title: "Launch",
     description:
-      "This is the final phase, during which we deploy the fully functional website, supported by routine performance maintenance for a set period.",
+      "This is the final phase, during which we deploy the fully functional website, supported by routine performance maintenance.",
     shadow: "shadow-[0_1px_6px_rgba(61,65,84,.15),0_5px_0_0_#B939E5]",
   },
 ];
@@ -113,7 +113,7 @@ const ProcessAndDevelopment = () => {
                 }}
                 custom={index}
               >
-                <ProcessAndDesignCard iconBox={iconBox} />
+                <ProcessAndDesignCard iconBox={iconBox} index={index} />
               </motion.div>
             </CarouselItem>
           ))}

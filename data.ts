@@ -458,7 +458,7 @@ export const serviceDetail: ServiceDetailType = {
           title: "Keyword Research And Analysis",
           description:
             "Our SEO experts carry our market analysis to find out high-impact keywords for your business. We carry out comprehensive analysis to make sure that your website’s content aligns well with the search intent, getting you the targeted traffic and optimizing your visibility in the SERPs. We pursue improved conversion rates by formulating long tail keywords, focusing on search volumes, relevance and competition. Our experts apply semantic SEO by creating a strategy around related terms and synonyms.",
-          image: "/service-detail/support/seo/seo/1.png",
+          image: "/service-detail/support/seo/1.png",
         },
         {
           title: "On-Page SEO",
@@ -898,8 +898,8 @@ export const serviceDetail: ServiceDetailType = {
     },
     stats: "Click That Don’t Die, Number That Don’t Lie!",
     isDiagram: false,
-    isCaseStudy: true,
-    isIndustries: true,
+    isCaseStudy: false,
+    isIndustries: false,
     isClient: true,
     isStack: true,
   },

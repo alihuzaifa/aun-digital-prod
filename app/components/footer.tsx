@@ -26,7 +26,6 @@ const Footer = () => {
       name: "Digital Marketing",
     },
     { path: "/services/seo-agency-dubai", name: "Seo Agency" },
-    { path: "/", name: "Web Development" },
     { path: "/services/social-media-agency-dubai", name: "Social Media" },
     { path: "/services/branding-agency-dubai", name: "Branding" },
     { path: "/services/ui-ux-design-agency-dubai", name: "Ui Ux Design" },
@@ -41,7 +40,7 @@ const Footer = () => {
   ];
   const quickLinks = [
     { path: "/about-us", name: "About Us" },
-    { path: "/blog", name: "Our Blog" },
+    { path: "/blogs", name: "Our Blog" },
     { path: "/contact-us", name: "Contact Us" },
   ];
 

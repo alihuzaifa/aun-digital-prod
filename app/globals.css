@@ -470,13 +470,6 @@
 }
 
 /* Home Client Section */
-.client-bg {
-  background-image: url('../public/home/client.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 3rem 0
-}
-
 .serv-category-card {
   background-color: #35acc9;
   padding: 3rem 1.5rem;

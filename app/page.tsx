@@ -71,7 +71,7 @@ export default function Home() {
         <div className="mb-20">
           <Heading
             isCenter={false}
-            isblue="Frequently Asked Questions"
+            title="Frequently Asked Questions"
             subtitle="Here’s a list of frequently asked questions that we often receive related to our website design services in Dubai."
           />
           <FaqCards faqArray={homePageFaq} />
