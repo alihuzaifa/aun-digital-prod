@@ -6,11 +6,8 @@ import {
   AlertDialogDescription,
   AlertDialogHeader,
 } from "@/components/ui/alert-dialog";
-import { Input } from "@/components/ui/input";
 import { X } from "lucide-react";
 import Image from "next/image";
-import ReCAPTCHA from "react-google-recaptcha";
-import CustomButton from "./customButton";
 import MessageForm from "./messageForm";
 
 interface modal {

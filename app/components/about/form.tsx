@@ -147,7 +147,6 @@ export default function AboutUsForm() {
         <div className="flex items-center mt-3">
           <CustomButton
             title={loader ? "" : "Get a Quote"}
-            isWhite
             icon={
               loader ? (
                 <Loader2 className="animate-spin-slow" />

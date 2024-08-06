@@ -1,7 +1,6 @@
 "use client"
 import { Input } from "@/components/ui/input";
 import { useFormik } from "formik";
-import ReCAPTCHA from "react-google-recaptcha";
 import * as Yup from "yup";
 import CustomButton from "./customButton";
 import { Textarea } from "@/components/ui/textarea";
@@ -16,7 +15,6 @@ const validationSchema = Yup.object({
     .required("Email Address is required"),
   phone: Yup.string().required("Phone Number is required"),
   subject: Yup.string().required("Subject is required"),
-  recaptcha: Yup.string().required("ReCAPTCHA validation is required"),
 });
 
 export default function MessageForm() {
@@ -28,7 +26,6 @@ export default function MessageForm() {
       email: "",
       phone: "",
       subject: "",
-      recaptcha: "",
     },
     validationSchema,
     onSubmit: async (values) => {
@@ -63,9 +60,9 @@ export default function MessageForm() {
     },
   });
 
-  const handleRecaptchaChange = (value: any) => {
-    formik.setFieldValue("recaptcha", value);
-  };
+  // const handleRecaptchaChange = (value: any) => {
+  //   formik.setFieldValue("recaptcha", value);
+  // };
 
   return (
     <form className="flex flex-col gap-y-4 mt-3" onSubmit={formik.handleSubmit}>
@@ -136,7 +133,7 @@ export default function MessageForm() {
         ) : null}
       </div>
 
-      <div className="relative flex flex-col">
+      {/* <div className="relative flex flex-col">
         <ReCAPTCHA
           sitekey="6LcFbxcqAAAAAPkw4Wc_ZqUVeO3ggwPsxhf7qd3N"
           onChange={handleRecaptchaChange}
@@ -146,7 +143,7 @@ export default function MessageForm() {
             {formik.errors.recaptcha}
           </div>
         ) : null}
-      </div>
+      </div> */}
 
       <div className="flex justify-end items-center mt-[-5px]">
         <CustomButton
