@@ -303,8 +303,8 @@ export default function Header() {
                 </div>
               </MaxWidthWrapper>
             </header>
-            {/* {isScrolled && <div className="mb-28" />} */}
-            <div className="mb-28" />
+            {isScrolled && <div className="mb-28" />}
+            {/* <div className="mb-28" /> */}
           </>
         }
       </div>
