@@ -68,6 +68,7 @@ export default function ContactForm({
             Accept: "application/json",
           },
         });
+        console.log("response", response)
 
         if (response.ok) {
           router.push('/thank-you')
