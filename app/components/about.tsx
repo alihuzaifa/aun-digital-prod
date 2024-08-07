@@ -59,6 +59,7 @@ export default function About() {
                   objectFit="contain"
                   alt="Career Banner"
                   priority
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                 />
               </div>
               <Carousel
