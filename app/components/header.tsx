@@ -67,7 +67,7 @@ export default function Header() {
                   <Link href={"/"}>
                     <Image
                       src={`/logo.png`}
-                      
+                      priority
                       alt="logo"
                       width={220}
                       height={220}
@@ -192,7 +192,7 @@ export default function Header() {
                   <Link href={"/"}>
                     <Image
                       src={`/logo.png`}
-                      
+                      priority
                       alt="logo"
                       width={220}
                       height={220}
@@ -318,7 +318,7 @@ export default function Header() {
                 <Link href={"/"}>
                   <Image
                     src={`/logo.png`}
-                    
+                    priority
                     alt="logo"
                     width={220}
                     height={220}
