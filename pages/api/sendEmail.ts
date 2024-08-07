@@ -66,9 +66,18 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       // Log the full error for debugging on the server side
       console.error('Error sending email:', error);
 
-      // Extract and send the error message to the frontend
-      const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
-      res.status(500).json({ message: 'Error sending email', error: errorMessage });
+      // Extract detailed error information
+      const errorDetails = {
+        message: (error as Error).message,
+        stack: (error as Error).stack,
+      };
+      console.log("server response", errorDetails)
+
+      // Send error information to the frontend
+      res.status(500).json({
+        message: 'Error sending email',
+        error: errorDetails.message,
+      });
     }
 
   } else {

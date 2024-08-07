@@ -27,7 +27,6 @@ export default function About() {
         src="/home/about.png"
         alt="Background Image"
         fill
-        priority
         style={{ objectFit: "cover", objectPosition: "center" }}
         className="absolute inset-0 -z-10"
       />
@@ -53,10 +52,14 @@ export default function About() {
                 trends, enabling them to create compelling web experiences
                 across all types of devices.
               </p>
-              <div
-                className={`xl:w-[600px] lg:w-[490px] md:w-[370px] w-[270px] h-[250px] sm:h-[300px] relative`}
-              >
-                <Image src={"/careers/side-banner.webp"} fill alt="" />
+              <div className="relative w-full" style={{ paddingBottom: '56.25%' /* 16:9 Aspect Ratio */ }}>
+                <Image
+                  src="/careers/side-banner.webp"
+                  layout="fill"
+                  objectFit="contain"
+                  alt="Career Banner"
+                  priority
+                />
               </div>
               <Carousel
                 opts={{
