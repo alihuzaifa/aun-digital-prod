@@ -27,7 +27,6 @@ export default function About() {
         src="/home/about.png"
         alt="Background Image"
         fill
-        priority
         style={{ objectFit: "cover", objectPosition: "center" }}
         className="absolute inset-0 -z-10"
       />
