@@ -162,7 +162,6 @@ export default function page({ params: { slug } }: any) {
         <div className="flex flex-wrap">
           <div className="md:w-[70%] w-full p-4 text-start flex flex-col pt-10">
             <CommonHeader data={checkBlogData || {}} />
-            <Blog29 />
             {slug == "tips-to-localize-google-ads" && <Blog1 />}
             {slug == "islamic-new-year-holiday-uae" && <Blog2 />}
             {slug == "how-to-change-location-on-google" && <Blog3 />}
@@ -197,7 +196,7 @@ export default function page({ params: { slug } }: any) {
             {slug == "types-of-ctas" && <Blog22 />}
             {slug == "best-home-internet-packages-dubai" && <Blog23 />}
             {slug == "best-ai-tools-for-businesses" && <Blog24 />}
-            {slug == "best-practices-for-secure-web-development" && <Blog25 />}
+            {slug == "best-ai-tools-for-businesses" && <Blog25 />}
             {slug == "best-practices-for-secure-web-development" && <Blog26 />}
             {slug == "tattoo-design-apps" && <Blog27 />}
             {slug == "website-redesign-costs-and-benefits" && <Blog28 />}
