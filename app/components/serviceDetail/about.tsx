@@ -23,9 +23,9 @@ const About = ({
             title={title}
             subtitle={description}
           />
-          <div className="flex gap-x-3">
-            <Link href={"tel:+97145471297"}>
-              <CustomButton title="More About Us" />
+          <div className="flex gap-3 flex-col sm:flex-row items-center sm:items-start">
+            <Link href={"/about-us"}>
+              <CustomButton title="More About Us"  />
             </Link>
             <CustomButton
               title="Let's Start Your Project"

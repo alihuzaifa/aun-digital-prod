@@ -44,14 +44,14 @@ export default function CaseStudies({
         "Increased the ROAS by 30% and organic rate by 14% while fully migrating the outdated website to WordPress.",
       title: "Fifth Technologies",
       logo: "/case-study/logos/4.png",
-      bgmage: "/case-study/clients/4.jpg",
+      bgmage: "/case-study/clients/5.jpg",
     },
     {
       description:
         "Enhanced their social media strategy with powerful visual content posted at optimized timings for increased engagement.",
       title: "Chic Floors",
       logo: "/case-study/logos/5.png",
-      bgmage: "/case-study/clients/5.jpg",
+      bgmage: "/case-study/clients/4.jpg",
     },
     {
       description:

@@ -154,6 +154,7 @@ interface DetailSectionTypes {
   isDiagram?: boolean;
   isCaseStudy?: boolean;
   stats?: string;
+  stacks?: any;
 }
 
 export type ServiceDetailType = {

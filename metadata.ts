@@ -2582,7 +2582,7 @@ export const metadataJson: MetadataType = {
       },
     ],
   },
-  "e-commerce-solutions": {
+  "ecommerce-web-development-dubai": {
     title: "Ecommerce Website Development & Web Design Services in Dubai, UAE",
     description:
       "Get proven ecommerce solutions in Dubai. We can provide custom ecommerce web development tailored for your business success. Get Free Consultation Today!",
@@ -2603,7 +2603,7 @@ export const metadataJson: MetadataType = {
     link: [
       {
         rel: "canonical",
-        href: "https://aundigital.ae/services/e-commerce-solutions",
+        href: "https://aundigital.ae/services/ecommerce-web-development-dubai",
       },
       {
         rel: "preload",
@@ -2644,7 +2644,7 @@ export const metadataJson: MetadataType = {
       },
     ],
   },
-  "magento-ecommerce-development": {
+  "magento-web-development-dubai": {
     title: "Magento Ecommerce Development Dubai | Top UAE Magento Developers",
     description:
       "Get stunning Magento ecommerce store in Dubai at Aun Digital. We are the leading Magento Ecommerce Development company in Dubai offering custom Magento development services in Dubai.",
@@ -2665,7 +2665,7 @@ export const metadataJson: MetadataType = {
     link: [
       {
         rel: "canonical",
-        href: "https://aundigital.ae/services/magento-ecommerce-development",
+        href: "https://aundigital.ae/services/magento-web-development-dubai",
       },
       {
         rel: "preload",

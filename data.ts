@@ -209,6 +209,11 @@ export const blogArray: BlogCardProps[] = [
 export const serviceDetail: ServiceDetailType = {
   // Digital marketing
   "digital-marketing-agency-dubai": {
+    stacks: {
+      title: "Our Digital Marketing Technology Stack",
+      subtitle:
+        "As the best digital marketing agency in Dubai, we push boundaries by leveraging state-of-the-art tools and technologies to drive your brand forward.",
+    },
     hero: {
       title: "ROI-Focused Digital Marketing Agency In Dubai",
       description:
@@ -389,6 +394,45 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "seo-agency-dubai": {
+    stacks: {
+      title: "SEO Technology Stack",
+      subtitle:
+        "Harness the power of our cutting-edge SEO toolkit to amplify your brand’s organic reach without incurring any additional cost per click.",
+        images1:[
+          "/service-detail/stacks/seo/1.png",
+          "/service-detail/stacks/seo/2.png",
+          "/service-detail/stacks/seo/3.png",
+          "/service-detail/stacks/seo/4.png",
+          "/service-detail/stacks/seo/5.png",
+          "/service-detail/stacks/seo/6.png",
+          "/service-detail/stacks/seo/7.png",
+          "/service-detail/stacks/seo/8.png",
+          "/service-detail/stacks/seo/1.png",
+          "/service-detail/stacks/seo/2.png",
+          "/service-detail/stacks/seo/3.png",
+          "/service-detail/stacks/seo/4.png",
+          "/service-detail/stacks/seo/5.png",
+          "/service-detail/stacks/seo/6.png",
+          "/service-detail/stacks/seo/7.png",
+          "/service-detail/stacks/seo/8.png",
+        ],
+        images2:[
+          "/service-detail/stacks/seo/9.png",
+          "/service-detail/stacks/seo/10.png",
+          "/service-detail/stacks/seo/11.png",
+          "/service-detail/stacks/seo/12.png",
+          "/service-detail/stacks/seo/13.png",
+          "/service-detail/stacks/seo/14.png",
+          "/service-detail/stacks/seo/15.png",
+          "/service-detail/stacks/seo/9.png",
+          "/service-detail/stacks/seo/10.png",
+          "/service-detail/stacks/seo/11.png",
+          "/service-detail/stacks/seo/12.png",
+          "/service-detail/stacks/seo/13.png",
+          "/service-detail/stacks/seo/14.png",
+          "/service-detail/stacks/seo/15.png",
+        ],
+    },
     hero: {
       title: "SEO Services In Dubai: Your Copter To Great Heightsdd",
       description:
@@ -611,6 +655,45 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "social-media-agency-dubai": {
+    stacks: {
+      title:
+        "Our Social Media Technology Stack That Increases Social Media Attachment 10x Times!",
+      subtitle: "",
+      images1:[
+        "/service-detail/stacks/smm/1.png",
+        "/service-detail/stacks/smm/2.png",
+        "/service-detail/stacks/smm/3.png",
+        "/service-detail/stacks/smm/4.png",
+        "/service-detail/stacks/smm/5.png",
+        "/service-detail/stacks/smm/6.png",
+        "/service-detail/stacks/smm/7.png",
+        "/service-detail/stacks/smm/8.png",
+        "/service-detail/stacks/smm/1.png",
+        "/service-detail/stacks/smm/2.png",
+        "/service-detail/stacks/smm/3.png",
+        "/service-detail/stacks/smm/4.png",
+        "/service-detail/stacks/smm/5.png",
+        "/service-detail/stacks/smm/6.png",
+        "/service-detail/stacks/smm/7.png",
+        "/service-detail/stacks/smm/8.png",
+      ],
+      images2:[
+        "/service-detail/stacks/smm/9.png",
+        "/service-detail/stacks/smm/10.png",
+        "/service-detail/stacks/smm/11.png",
+        "/service-detail/stacks/smm/12.png",
+        "/service-detail/stacks/smm/13.png",
+        "/service-detail/stacks/smm/14.png",
+        "/service-detail/stacks/smm/15.png",
+        "/service-detail/stacks/smm/9.png",
+        "/service-detail/stacks/smm/10.png",
+        "/service-detail/stacks/smm/11.png",
+        "/service-detail/stacks/smm/12.png",
+        "/service-detail/stacks/smm/13.png",
+        "/service-detail/stacks/smm/14.png",
+        "/service-detail/stacks/smm/15.png",
+      ],
+    },
     hero: {
       title: "ROI-Focused Social Media Marketing Agency In Dubai",
       description:
@@ -767,6 +850,45 @@ export const serviceDetail: ServiceDetailType = {
     isStack: false,
   },
   "ppc-pay-per-click-agency-dubai": {
+    stacks: {
+      title:
+        "The PPC Dubai Technology Stack That Increases Brand Visibility 10x Times!",
+      subtitle: "",
+      images1:[
+        "/service-detail/stacks/ppc/1.png",
+        "/service-detail/stacks/ppc/2.png",
+        "/service-detail/stacks/ppc/3.png",
+        "/service-detail/stacks/ppc/4.png",
+        "/service-detail/stacks/ppc/5.png",
+        "/service-detail/stacks/ppc/6.png",
+        "/service-detail/stacks/ppc/7.png",
+        "/service-detail/stacks/ppc/8.png",
+        "/service-detail/stacks/ppc/1.png",
+        "/service-detail/stacks/ppc/2.png",
+        "/service-detail/stacks/ppc/3.png",
+        "/service-detail/stacks/ppc/4.png",
+        "/service-detail/stacks/ppc/5.png",
+        "/service-detail/stacks/ppc/6.png",
+        "/service-detail/stacks/ppc/7.png",
+        "/service-detail/stacks/ppc/8.png",
+      ],
+      images2:[
+        "/service-detail/stacks/ppc/9.png",
+        "/service-detail/stacks/ppc/10.png",
+        "/service-detail/stacks/ppc/11.png",
+        "/service-detail/stacks/ppc/12.png",
+        "/service-detail/stacks/ppc/13.png",
+        "/service-detail/stacks/ppc/14.png",
+        "/service-detail/stacks/ppc/15.png",
+        "/service-detail/stacks/ppc/9.png",
+        "/service-detail/stacks/ppc/10.png",
+        "/service-detail/stacks/ppc/11.png",
+        "/service-detail/stacks/ppc/12.png",
+        "/service-detail/stacks/ppc/13.png",
+        "/service-detail/stacks/ppc/14.png",
+        "/service-detail/stacks/ppc/15.png",
+      ],
+    },
     hero: {
       title: "The Best PPC Agency in Dubai | Click. Convert. Conquer.",
       description:
@@ -900,6 +1022,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "aso-app-store-optimization-dubai": {
+    stacks: {
+      title: "Our Stack of Powerful Tools for App Store Optimization",
+      subtitle:
+        "Aun Digital is a powerhouse of building optimised mobile apps, we are also the best at performing app store optimization. Connect with us today and get the consultation related to our ASO services.",
+    },
     hero: {
       title: "The Only Leading App Store Optimization Service in Dubai",
       description:
@@ -1047,6 +1174,33 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "email-marketing-dubai": {
+    stacks: {
+      title: "OUR CUTTING-EDGE EMAIL MARKETING TECHNOLOGY STACK",
+      subtitle:
+        "As the best email marketing company in Dubai, our arsenal encompasses a plethora of innovative tools that help us craft compelling campaigns and drive skyrocketing engagement.",
+        images1: [
+          "/service-detail/stacks/email/1.png",
+          "/service-detail/stacks/email/2.png",
+          "/service-detail/stacks/email/3.png",
+          "/service-detail/stacks/email/4.png",
+          "/service-detail/stacks/email/5.png",
+          "/service-detail/stacks/email/1.png",
+          "/service-detail/stacks/email/2.png",
+          "/service-detail/stacks/email/3.png",
+          "/service-detail/stacks/email/4.png",
+          "/service-detail/stacks/email/5.png",
+        ],
+        images2: [
+          "/service-detail/stacks/email/6.png",
+          "/service-detail/stacks/email/7.png",
+          "/service-detail/stacks/email/8.png",
+          "/service-detail/stacks/email/9.png",
+          "/service-detail/stacks/email/6.png",
+          "/service-detail/stacks/email/7.png",
+          "/service-detail/stacks/email/8.png",
+          "/service-detail/stacks/email/9.png",
+        ],
+    },
     hero: {
       title:
         "DRIVE GROWTH, INBOX FIRST ROI-DRIVEN EMAIL MARKETING SERVICES DUBAI",
@@ -1206,6 +1360,12 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "influencer-marketing-agency-dubai": {
+    stacks: {
+      title:
+        "Influencer Marketing Agency Technology Stack for Your Brand Growth",
+      subtitle:
+        "As a top-leading Dubai Influencer Agency, we focus on producing ROI results by leveraging the latest tools and technologies to take your brand onto the next level of success.",
+    },
     hero: {
       title:
         "Result-Driven Influencer Marketing Agency in Dubai With Guaranteed Success",
@@ -1339,6 +1499,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "cro-conversion-rate-optimization-services-dubai": {
+    stacks: {
+      title: "the cro formula - our technology arsenal",
+      subtitle:
+        "Our stack is fueled by leading-edge tools that ensure your website is up and running for maximum conversions in no time.",
+    },
     hero: {
       title:
         "Strengthen Your Bottom Line with Our Data-Powered Conversion Optimization Services",
@@ -1491,14 +1656,18 @@ export const serviceDetail: ServiceDetailType = {
     },
     stats:
       "watch your sales skyrocket with our top-tier conversion rate optimization services",
-    isDiagram: true,
-    isCaseStudy: true,
-    isIndustries: true,
+    isDiagram: false,
+    isCaseStudy: false,
+    isIndustries: false,
     isClient: true,
     isStack: false,
   },
   // Ui Ux Design
   "ui-ux-design-agency-dubai": {
+    stacks: {
+      title: "Tools/Technology Stack Behind Our UI UX Designing Expertise",
+      subtitle: "",
+    },
     hero: {
       title:
         "User-Centric UI/UX Design Company in Dubai: Building Websites & Apps People Love",
@@ -1623,6 +1792,11 @@ export const serviceDetail: ServiceDetailType = {
       "Number Of Projects Brought To Life By Our UI UX Design Company In Dubai!!!",
   },
   "psd-to-html-dubai": {
+    stacks: {
+      title: "Our Powerful Toolkit for PSD to Responsive HTML Conversion",
+      subtitle:
+        "Aun Digital’s core focus is to exceed your expectations as quickly as possible. Thus, we always ensure to enhance your HTML website’s usability with user engagement and conversion.",
+    },
     hero: {
       title: "Smooth PSD to HTML Conversion Services in Dubai",
       description:
@@ -1749,6 +1923,12 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "landing-page-design": {
+    stacks: {
+      title:
+        "The Ground-Breaking Landing Page Design & Development Technology Stack",
+      subtitle:
+        "Use the power of Aun Digital’s landing page toolkit to close more leads, increase traffic, and improve rate of conversion.",
+    },
     hero: {
       title: "Best Landing Page Design Service for Maximum Conversions",
       description:
@@ -1903,6 +2083,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "ux-audit": {
+    stacks: {
+      title: "Our Powerful Toolkit for UX Design Audit & UX Site Audit",
+      subtitle:
+        "Aun Digital stands tall in providing UX audit service that is adapted according to your business objectives and implemented by our UX design experts.",
+    },
     hero: {
       title: "Result-Driven & Performance-Focused UX Audit Agency in Dubai",
       description:
@@ -2024,6 +2209,11 @@ export const serviceDetail: ServiceDetailType = {
 
   // Web Development
   "wordpress-website-design-dubai": {
+    stacks: {
+      title: "Our WordPress Development & Design Technology Stack",
+      subtitle:
+        "We take pride in being the best WordPress development company in Dubai. Here are the technologies that we use to drive your business to new heights.",
+    },
     hero: {
       title: "Result-Driven WordPress Development Company in Dubai",
       description:
@@ -2146,6 +2336,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "sharepoint-development-dubai": {
+    stacks: {
+      title: "A Closer Look at Our SharePoint Development Ingredients",
+      subtitle:
+        "Our core SharePoint development tech stack encompasses versatile frameworks and cutting-edge tools that allow us to deliver robust and scalable SharePoint solutions.",
+    },
     hero: {
       title: "Performance-Driven SharePoint Development Services",
       description:
@@ -2269,6 +2464,12 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "sitecore-development-dubai": {
+    stacks: {
+      title:
+        "Drive Business Growth With Our Scalable SiteCore Development Stack",
+      subtitle:
+        "Boost your business growth with our scalable Sitecore development stack at Aun Digital. Our dedicated team ensures industry-standard sitecore web development in Dubai, consistently updating skills and technology for innovative solutions.",
+    },
     hero: {
       title: "Custom Sitecore Development Company In Dubai",
       description:
@@ -2405,6 +2606,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "php-development-dubai": {
+    stacks: {
+      title: "Our Latest Technology Stack for PHP Web and App Development",
+      subtitle:
+        "Aun Digital is always proud to use the latest technology stack for all types of web development. We perform all the possible steps to make your PHP website or app look great for better user experience.",
+    },
     hero: {
       title: "Leading PHP Development Company In Dubai",
       description:
@@ -2534,6 +2740,12 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "cms-website-development-dubai": {
+    stacks: {
+      title:
+        "Our Amplified & Scalable Content Management System Technology Stack",
+      subtitle:
+        "Standing tall as the top CMS website development company in Dubai, Aun Digital is proud to work with a range of technologies and industry-specific standards.",
+    },
     hero: {
       title:
         "Professional CMS Development Services In Dubai To Streamline Content",
@@ -2668,6 +2880,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "drupal-web-development-dubai": {
+    stacks: {
+      title: "Our Remarkable Technology Stacks for Drupal Web Development",
+      subtitle:
+        "Drupal is a growing framework that can boost your profit and sales while maintaining a sleek appearance. We work with the latest Drupal tech stack to keep you ahead of the competition.",
+    },
     hero: {
       title: "Custom Drupal Development Company In Dubai",
       description:
@@ -2799,6 +3016,10 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "laravel-web-development-dubai": {
+    stacks: {
+      title: "Our Remarkable Technology Stacks for Laravel Development",
+      subtitle: "",
+    },
     hero: {
       title:
         "Get A Powerful Business Website From Expert Laravel Developers At Aun Digital",
@@ -2926,6 +3147,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "angularjs-development-dubai": {
+    stacks: {
+      title: "Our Toolkit for AngularJS Development Services",
+      subtitle:
+        "Aun Digital is here to help you in handling more users and features without losing out on any competition. We use advanced technology stack and bring your concept to life with our AngularJS development.",
+    },
     hero: {
       title: "AngularJS Web & Application Development Company Dubai",
       description:
@@ -3062,6 +3288,12 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "python-development-dubai": {
+    stacks: {
+      title:
+        "Our Powerful Python Tech Stack to Maximise Your Website Performance",
+      subtitle:
+        "As a professional Python development company in Dubai with years of experience, we provide robust and secure Python web and application development services for companies using the latest technologies.",
+    },
     hero: {
       title: "Trusted Python Web Application Development Service in Dubai",
       description:
@@ -3198,6 +3430,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "web-maintenance-dubai": {
+    stacks: {
+      title: "Our Web Design and Maintenance Services Technology Stack",
+      subtitle:
+        "We check all the boxes as the leading website maintenance company in Dubai - We have command on a wide range of technologies to provide complete solutions for all your website issues.",
+    },
     hero: {
       title: "Top-Notch Website Maintenance Services in Dubai",
       description:
@@ -3315,6 +3552,45 @@ export const serviceDetail: ServiceDetailType = {
   },
   // Brand Identity
   "branding-agency-dubai": {
+    stacks: {
+      title: "Technology Stack That Fuels Our Branding Services Success!",
+      subtitle:
+        "The technology stack behind our next-level branding services in Dubai helps elevate your brand above the competition.",
+      images1: [
+        "/service-detail/stacks/branding/1.png",
+        "/service-detail/stacks/branding/2.png",
+        "/service-detail/stacks/branding/3.png",
+        "/service-detail/stacks/branding/4.png",
+        "/service-detail/stacks/branding/5.png",
+        "/service-detail/stacks/branding/6.png",
+        "/service-detail/stacks/branding/7.png",
+        "/service-detail/stacks/branding/8.png",
+        "/service-detail/stacks/branding/1.png",
+        "/service-detail/stacks/branding/2.png",
+        "/service-detail/stacks/branding/3.png",
+        "/service-detail/stacks/branding/4.png",
+        "/service-detail/stacks/branding/5.png",
+        "/service-detail/stacks/branding/6.png",
+        "/service-detail/stacks/branding/7.png",
+        "/service-detail/stacks/branding/8.png",
+      ],
+      images2: [
+        "/service-detail/stacks/branding/9.png",
+        "/service-detail/stacks/branding/10.png",
+        "/service-detail/stacks/branding/11.png",
+        "/service-detail/stacks/branding/12.png",
+        "/service-detail/stacks/branding/13.png",
+        "/service-detail/stacks/branding/14.png",
+        "/service-detail/stacks/branding/15.png",
+        "/service-detail/stacks/branding/9.png",
+        "/service-detail/stacks/branding/10.png",
+        "/service-detail/stacks/branding/11.png",
+        "/service-detail/stacks/branding/12.png",
+        "/service-detail/stacks/branding/13.png",
+        "/service-detail/stacks/branding/14.png",
+        "/service-detail/stacks/branding/15.png",
+      ],
+    },
     hero: {
       title: "Disruptive Branding Company In Dubai",
       description:
@@ -3463,6 +3739,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "logo-design-dubai": {
+    stacks: {
+      title: "Our Logo design and Development Stack",
+      subtitle:
+        "As the leading logo design company, we focus on providing the best design solutions to our customers, which means leveraging top-notch tools and technologies to make your brand stand out!",
+    },
     hero: {
       title:
         "Get the Stunning Logo Design Service from the Leading Agency in Dubai",
@@ -3601,6 +3882,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "brochure-design-dubai": {
+    stacks: {
+      title: "Our Robust Design Technology Stack To Make Your Brand Stand Out",
+      subtitle:
+        "We strive for creativity by using the right tools from Adobe to Sketch to make your brand a success. Our team surely has hands-on experience of every tool to provide complete designing solutions for your business.",
+    },
     hero: {
       title:
         "Bold Designs For Bold Ideas - All-in-one Agency for Brochure Design in Dubai",
@@ -3727,6 +4013,12 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "ppt-design-dubai": {
+    stacks: {
+      title:
+        "Powerful Presentation Design Technology Stack For Your Business Success",
+      subtitle:
+        "Our latest technology stack encompasses a broad range of cutting-edge technological solutions that ensure your presentation flaunts in style and leaves a lasting impression on your audience.",
+    },
     hero: {
       title:
         "Designs That Tell Your Story: Presentation Design Agency Dubai, UAE",
@@ -3861,6 +4153,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "infographics-design-services-dubai": {
+    stacks: {
+      title: "Our Power-Packed And Dynamic Infographic Tech Stack",
+      subtitle:
+        "We leverage the latest technology and design tools and creative software to craft show-stopping infographics that promise a perfect mix of your business message and style.",
+    },
     hero: {
       title:
         "Creative & Captivating Infographics Design Services In Dubai, UAE",
@@ -4258,6 +4555,11 @@ export const serviceDetail: ServiceDetailType = {
 
   // Copywriting
   "copywriting-service-dubai": {
+    stacks: {
+      title: "Copywriting Tools To Amp Up Your Website Traffic",
+      subtitle:
+        "Our team of professional copywriters in Dubai provides outstanding content writing and strategy development for you to boost your web traffic and bring in conversions. As professional content writers in Dubai, we leverage the best copywriting tools and technologies to bring your brand's ranking to the top and boost organic traffic.",
+    },
     hero: {
       title: "Quality Copywriting Service From Expert Copywriters in Dubai",
       description:
@@ -4407,6 +4709,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "website-copywriting": {
+    stacks: {
+      title: "Website Copywriting Tools To Attract Your Customers",
+      subtitle:
+        "We prioritise your business needs and provide result-driven solutions. We use advanced copywriting tools to captivate your customers and bring your concept to life with our professional content writing, and SEO copywriting services.",
+    },
     hero: {
       title: "Website Copywriting Agency That Generates Quality Leads",
       description:
@@ -4525,6 +4832,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "blog-writing": {
+    stacks: {
+      title: "Advanced Content Tools For Blog Post Writing Services",
+      subtitle:
+        "As the best SEO blog writing agency in Dubai, we craft outstanding and creative blog posts by using advanced writing and SEO tools to ensure factual accuracy, zero plagiarism, and AI-free content for enhanced traffic and engagement.",
+    },
     hero: {
       title: "The Leading Blog Writing Company in Dubai",
       description:
@@ -4645,6 +4957,11 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "translation-agency-dubai": {
+    stacks: {
+      title: "A Peek Inside Our High-Tech Translation Toolkit",
+      subtitle:
+        "As the best translation company in Dubai, we capitalise on cutting-edge machine-translation algorithms to ensure your website content speaks volume regardless of the language.",
+    },
     hero: {
       title: "Speak to the World With The Expert Dubai Translation Agency",
       description:
@@ -4773,7 +5090,13 @@ export const serviceDetail: ServiceDetailType = {
   },
 
   // Ecommerce Solutions
-  "e-commerce-solutions": {
+  "ecommerce-web-development-dubai": {
+    stacks: {
+      title:
+        "Crafting Digital Excellence by Leveraging Ecommerce Site Development Technology Stack",
+      subtitle:
+        "Breakthrough Tools and Technologies for Professional eCommerce Web Development in Dubai",
+    },
     hero: {
       title:
         "Begin Your Success With Aun Digital - Your Top Rated Ecommerce Development Company in Dubai",
@@ -4912,6 +5235,11 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "woo-commerce-development": {
+    stacks: {
+      title: "The Tech Magic Behind Our Cutting-Edge WooCommerce Solutions",
+      subtitle:
+        "Our WooCommerce tech toolkit abounds with cutting-edge tools, advanced plugins, and robust frameworks to help optimize your store performance.",
+    },
     hero: {
       title:
         "Strengthen Your Online Presence With Our WooCommerce Website Development Services in Dubai!",
@@ -5050,7 +5378,12 @@ export const serviceDetail: ServiceDetailType = {
     isDiagram: false,
     isCaseStudy: false,
   },
-  "magento-ecommerce-development": {
+  "magento-web-development-dubai": {
+    stacks: {
+      title: "Magento Website Development Technology Stack",
+      subtitle:
+        "Being the top-rated Magento eCommerce development company in Dubai, Aun Digital works with a wide range of technologies, and industry-specific standards to deliver exceptional services to our customers.",
+    },
     hero: {
       title:
         "Get Revenue Through Results With Magento Web Development Company In UAE",
@@ -5185,6 +5518,11 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "big-commerce-development-service-dubai": {
+    stacks: {
+      title: "Sales-Driven BigCommerce Development Technology Stack",
+      subtitle:
+        "As a BigCommerce Development Services provider, we bring the expertise of using BigCommerce Tech stack to ensure smooth functioning, user-friendly order process, and seamless shopping experience for your brand.",
+    },
     hero: {
       title:
         "Unlock Your Digital Success With BigCommerce Web Development Services In Dubai",
@@ -5322,6 +5660,11 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "mirakl-development-dubai": {
+    stacks: {
+      title: "Mirakl Marketplace Development & Technology Stack",
+      subtitle:
+        "We confidently and passionately grow your business because we go above and beyond in incorporating the blend of backend frameworks, and scalable cloud support to your business resulting in successful leads.",
+    },
     hero: {
       title:
         "Turn Your Business Into Brand with Mirakl Development Company in Dubai",
@@ -5411,6 +5754,11 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "shopify-development-dubai": {
+    stacks: {
+      title: "Our Fully Scalable Suite of Shopify Website Development",
+      subtitle:
+        "Here is our fully scalable suite of Shopify website development services. We utilize the best tools to help you create a powerful online presence and grow your business.",
+    },
     hero: {
       title: "Converting Shopify Development Company in Dubai",
       description:
@@ -5565,6 +5913,11 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "joomla-development-dubai": {
+    stacks: {
+      title: "Our Fully Scalable Joomla Technology Stack",
+      subtitle:
+        "Known as the top Joomla web development company in Dubai, Aun Digital is proud to work with a range of latest Joomla tools for its clients.",
+    },
     hero: {
       title: "Leading Joomla Development Company in Dubai, UAE",
       description:
@@ -5713,6 +6066,10 @@ export const serviceDetail: ServiceDetailType = {
   },
   // It Resource
   "it-resource-outsourcing": {
+    stacks: {
+      title:
+        "Ready to take charge of your business with one of the best IT outsourcing companies in UAE?",
+    },
     hero: {
       title: "Tech Titans The Mighty IT Outsourcing Company Dubai",
       description:
@@ -5845,6 +6202,12 @@ export const serviceDetail: ServiceDetailType = {
   },
   // Mobile App Development
   "mobile-app-development-dubai": {
+    stacks: {
+      title:
+        "A Sneak Peek into our Cutting-Edge App Development Technology Stack",
+      subtitle:
+        "As the pioneers of mobile app development in Dubai we harness ground-breaking technologies and tools like AI, Blockchain, AR/VR, and platforms like iOS and Android to build advanced and feature-rich mobile apps.",
+    },
     hero: {
       title: "Progressive Mobile App Development Company in Dubai",
       description:
@@ -5989,6 +6352,11 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "ios-app-development-service": {
+    stacks: {
+      title: "Our Power-packed IOS Technology Stack to Skyrocket your App",
+      subtitle:
+        "As the best OS Technology in Dubai, we push boundaries by leveraging state-of-the-art tools and technologies to drive your brand forward.",
+    },
     hero: {
       title:
         "Result-Driven iOS App Development Services in Dubai - Solving Real App Challenges! ",
@@ -6101,6 +6469,11 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "react-app-development-services": {
+    stacks: {
+      title: "What Goes Into Our React Native Toolbox?",
+      subtitle:
+        "Our React Native toolkit is stacked with the latest technology and innovative frameworks that lets us create exceptional experiences.",
+    },
     hero: {
       title: "React Native App Development Company in Dubai",
       description:
@@ -6229,6 +6602,11 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "flutter-app-development-services": {
+    stacks: {
+      title: "Latest Tech Behind Our Flutter 3.19 App Development Services",
+      subtitle:
+        "Our robust tech stack abounds with advanced tools and plugins that sets the stage for top-notch and blazing-fast app experiences.",
+    },
     hero: {
       title: "Flutter App Development Company in Dubai",
       description:
@@ -6357,6 +6735,11 @@ export const serviceDetail: ServiceDetailType = {
     isCaseStudy: false,
   },
   "android-app-development-dubai": {
+    stacks: {
+      title: "Our Android App Development Technology Stack",
+      subtitle:
+        "Aun Digital meets the industry standards of android application development in Dubai. Our dedicated team of experts brings out the innovation by consistently updating the skillset and technology stack.",
+    },
     hero: {
       title: "Trusted Android App Development Company in Dubai",
       description:
@@ -6610,14 +6993,14 @@ export const services = [
   {
     title: "Ecommerce Solutions",
     children: [
-      { title: "Ecommerce Solutions", href: "/services/e-commerce-solutions" },
+      { title: "Ecommerce Solutions", href: "/services/ecommerce-web-development-dubai" },
       {
         title: "Woo Commerce Development",
         href: "/services/woo-commerce-development",
       },
       {
         title: "Magento Ecommerce Development",
-        href: "/services/magento-ecommerce-development",
+        href: "/services/magento-web-development-dubai",
       },
       {
         title: "Bigcommerce Development",
@@ -7226,10 +7609,9 @@ export const data = [
     home: "Best Home Internet Packages and Plans in Dubai 2024",
     content: ["Etisalat Home Internet Packages: E-Life Express Lane"],
   },
-  
+
   {
-    title:
-      "Best Home Internet Packages and Plans in Dubai 2024",
+    title: "Best Home Internet Packages and Plans in Dubai 2024",
     description:
       "Here’s a list of the best home internet packages in Dubai, we have analyzed Du internet packages and Etisalat home internet packages in Dubai to help you select the best one for your home.",
     imageSrc: "/blog/blog24.png",
@@ -7254,7 +7636,7 @@ export const data = [
     pageKey: "best-ai-tools-for-businesses",
     summary: "",
     home: "10 Best AI Tools for Businesses To Enhance Productivity and Drive Sales",
-    content: ["10 Best AI Tools for Businesses","Final Word"],
+    content: ["10 Best AI Tools for Businesses", "Final Word"],
   },
 
   {
@@ -7266,12 +7648,9 @@ export const data = [
     key: 7,
     href: "/blogs/best-practices-for-secure-web-development/",
     pageKey: "best-practices-for-secure-web-development",
-    summary:
-      "",
+    summary: "",
     home: " Best Practices for Secure Web Development",
-    content: [
-      "Final Word",
-    ],
+    content: ["Final Word"],
   },
   {
     title: "Cost and Tips to Design Your Tattoo Designer App",

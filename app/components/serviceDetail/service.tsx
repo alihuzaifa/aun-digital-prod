@@ -14,7 +14,7 @@ export default function Service({
       <div className="md:w-[50%] w-full flex flex-col">
         <Heading title={title} isCenter={false} />
         <div className="flex justify-center items-center">
-          <div className="relative w-[500px] h-[800px]">
+          <div className="relative right-0 md:right-16 w-[500px] h-[800px]">
             <Image
               src={"/service-detail/service.png"}
               fill
