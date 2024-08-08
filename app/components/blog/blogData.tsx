@@ -5275,7 +5275,7 @@ export function Blog22() {
         Example: Download our FREE 5-Step Guide to Instagram Marketing for
         sure-shot success.
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.jpg"
           alt="Growth"
@@ -5303,7 +5303,7 @@ export function Blog22() {
         Example: Click here to download a detailed case study about how our
         anti-dandruff shampoo beat the best in the business.
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.1.jpg"
           alt="Growth"
@@ -5323,7 +5323,7 @@ export function Blog22() {
       <p className={`text-md md:text-lg my-2`}>
         Example: Experience our finest services related to medical billing.
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.2.jpg"
           alt="Growth"
@@ -5342,7 +5342,7 @@ export function Blog22() {
       <p className={`text-md md:text-lg my-2`}>
         Example: Get the exclusive discount for the launch of new Adidas shoes
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.3.jpg"
           alt="Growth"
@@ -5363,7 +5363,7 @@ export function Blog22() {
         Example: Follow us on Instagram for daily doses of what it feels like
         living in Dubai Downtown.
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.4.jpg"
           alt="Growth"
@@ -5383,7 +5383,7 @@ export function Blog22() {
         Example: Have a question? We’re just a click away! Contact us for
         instant assistance.
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.5.jpg"
           alt="Growth"
@@ -5403,7 +5403,7 @@ export function Blog22() {
         Example: Get a FREE quote for your dream kitchen renovation. Let’s make
         your vision a reality.
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.6.jpg"
           alt="Growth"
@@ -5423,7 +5423,7 @@ export function Blog22() {
         Example: Tell the world about your experience! Please leave a review and
         help others discover the magic of our spa.
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.7.jpg"
           alt="Growth"
@@ -5444,7 +5444,7 @@ export function Blog22() {
         Example: Click here to share your favorite dish from our menu with your
         friends and loved ones.
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.8.jpg"
           alt="Growth"
@@ -5464,7 +5464,7 @@ export function Blog22() {
         Example: Start an instant chat and ask anything to help you better
         understand our products and services.
       </p>
-      <div className="relative w-full md:h-[380px] h-[300px] my-5">
+      <div className="relative w-full md:h-[270px] h-[70px] my-5">
         <Image
           src="/blog/detail/21.9.jpg"
           alt="Growth"

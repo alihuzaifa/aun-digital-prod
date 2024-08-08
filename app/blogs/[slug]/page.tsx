@@ -144,7 +144,6 @@ function CommonHeader({
 
 export default function page({ params: { slug } }: any) {
   const checkBlogData = data.find((item) => item.pageKey === slug);
-  console.log("🚀 ~ page ~ checkBlogData:", checkBlogData, slug);
   if (!checkBlogData) return notFound();
   const checkIndexNo = data.findIndex((item) => item.pageKey === slug);
   const previousBlogData = data[checkIndexNo - 1];
