@@ -7226,19 +7226,20 @@ export const data = [
     home: "Best Home Internet Packages and Plans in Dubai 2024",
     content: ["Etisalat Home Internet Packages: E-Life Express Lane"],
   },
+  
   {
     title:
-      "10 Best AI Tools for Businesses To Enhance Productivity and Drive Sales",
+      "Best Home Internet Packages and Plans in Dubai 2024",
     description:
       "Here’s a list of the best home internet packages in Dubai, we have analyzed Du internet packages and Etisalat home internet packages in Dubai to help you select the best one for your home.",
     imageSrc: "/blog/blog24.png",
     date: "February 12, 2024",
     key: 6,
-    href: "/blogs/best-ai-tools-for-businesses/",
-    pageKey: "best-ai-tools-for-businesses",
+    href: "/blogs/best-home-internet-packages-dubai/",
+    pageKey: "best-home-internet-packages-dubai",
     summary: "",
-    home: "Google Unveils June 2024 Spam Update",
-    content: ["10 Best AI Tools for Businesses"],
+    home: "Best Home Internet Packages and Plans in Dubai 2024",
+    content: ["Etisalat Home Internet Packages: E-Life Express Lane"],
   },
 
   {
