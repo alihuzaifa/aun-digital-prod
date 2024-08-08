@@ -112,6 +112,8 @@
   padding: 15px 10px;
 }
 
+
+
 .btn:hover {
   background: linear-gradient(270deg, rgb(0, 183, 215) -25%, rgb(92, 44, 124) 100%);
   color: white;
@@ -584,7 +586,17 @@
   height: 90vh;
 }
 
-.vp-center{
+.vp-center {
   width: 100% !important;
   height: 100% !important;
+}
+
+
+.subscribe-box {
+  background: linear-gradient(270deg, rgb(0, 183, 215) -25%, rgb(92, 44, 124) 100%);
+  width: 100%;
+  min-height: 200px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: white;
 }
