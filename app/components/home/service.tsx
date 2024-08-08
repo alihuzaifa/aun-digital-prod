@@ -187,7 +187,7 @@ export default function Service() {
       content: [
         {
           title: "E Commerce Website",
-          url: "/services/e-commerce-solutions",
+          url: "/services/ecommerce-web-development-dubai",
         },
         {
           title: "Woo Commerce Development",
@@ -204,7 +204,7 @@ export default function Service() {
 
         {
           title: "Magento Ecommerce",
-          url: "/services/magento-ecommerce-development",
+          url: "/services/magento-web-development-dubai",
         },
       ],
     },

@@ -219,7 +219,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: "https://aundigital.ae/services/e-commerce-solutions",
+      url: "https://aundigital.ae/services/ecommerce-web-development-dubai",
       lastModified: new Date("2024-08-02T12:41:31+00:00"),
       changeFrequency: "monthly",
       priority: 0.8,
@@ -231,7 +231,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: "https://aundigital.ae/services/magento-ecommerce-development",
+      url: "https://aundigital.ae/services/magento-web-development-dubai",
       lastModified: new Date("2024-08-02T12:41:31+00:00"),
       changeFrequency: "monthly",
       priority: 0.8,

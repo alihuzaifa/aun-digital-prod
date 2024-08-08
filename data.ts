@@ -5090,7 +5090,7 @@ export const serviceDetail: ServiceDetailType = {
   },
 
   // Ecommerce Solutions
-  "e-commerce-solutions": {
+  "ecommerce-web-development-dubai": {
     stacks: {
       title:
         "Crafting Digital Excellence by Leveraging Ecommerce Site Development Technology Stack",
@@ -5378,7 +5378,7 @@ export const serviceDetail: ServiceDetailType = {
     isDiagram: false,
     isCaseStudy: false,
   },
-  "magento-ecommerce-development": {
+  "magento-web-development-dubai": {
     stacks: {
       title: "Magento Website Development Technology Stack",
       subtitle:
@@ -6993,14 +6993,14 @@ export const services = [
   {
     title: "Ecommerce Solutions",
     children: [
-      { title: "Ecommerce Solutions", href: "/services/e-commerce-solutions" },
+      { title: "Ecommerce Solutions", href: "/services/ecommerce-web-development-dubai" },
       {
         title: "Woo Commerce Development",
         href: "/services/woo-commerce-development",
       },
       {
         title: "Magento Ecommerce Development",
-        href: "/services/magento-ecommerce-development",
+        href: "/services/magento-web-development-dubai",
       },
       {
         title: "Bigcommerce Development",
