@@ -256,8 +256,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row md:justify-between text-sm text-white pb-2">
           <p className="mt-3 md:mt-0">
             Copyrights &copy; {new Date().getFullYear()}{" "}
-            <span className="text-blue-500">Aun Digital</span>, all rights
-            reserved.{" "}
+            <Link href={"/"}>
+              <span className="text-blue-500">Aun Digital</span>
+            </Link>
+            , all rights reserved.{" "}
           </p>
           <p className="mt-1 md:mt-0 ml-[-7px] md:ml-0">
             <Link href={"/privacy-policy"}>

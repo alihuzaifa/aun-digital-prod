@@ -208,18 +208,6 @@ export default function Service() {
         },
       ],
     },
-    {
-      title: "IT Resource Outsourcing",
-      description:
-        "Aun Digital believes in strategic partnerships and unbiased outsourcing, and for that purpose, you can hire our best experts for outstanding results. The entire concept of outsourcing resources is to help the growing businesses with a dedicated team at their disposal. We provide a team full of incredible experts to our businesses and they connect with each other for the discussion. To keep your dynamic project absolutely in the running.",
-      heading: "Tech Talent Acquisition ",
-      content: [
-        {
-          title: "It Resource Outsourcing",
-          url: "services/it-resource-outsourcing",
-        },
-      ],
-    },
   ];
   return (
     <>

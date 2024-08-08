@@ -24,8 +24,8 @@ const About = ({
             subtitle={description}
           />
           <div className="flex gap-x-3">
-            <Link href={"tel:+97145471297"}>
-              <CustomButton title="More About Us" />
+            <Link href={"/about-us"}>
+              <CustomButton title="More About Us"  />
             </Link>
             <CustomButton
               title="Let's Start Your Project"

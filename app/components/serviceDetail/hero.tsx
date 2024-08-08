@@ -87,7 +87,7 @@ export default function Hero({
               <Heading subtitle={description} isCenter={false} />
             </div>
             <div className="flex gap-x-3">
-              <Link href={"tel:+97145471297"}>
+              <Link href={"/about-us"}>
                 <CustomButton title="More About Us" />
               </Link>
               <CustomButton

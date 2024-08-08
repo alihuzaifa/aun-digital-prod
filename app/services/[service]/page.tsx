@@ -52,10 +52,15 @@ function page({ params: { service } }: any) {
     isIndustries,
     isCaseStudy,
     stats,
+    stacks,
   } = detail;
   return (
     <>
-      <Hero page={service} title={hero?.title || ""} description={hero?.description || ""} />
+      <Hero
+        page={service}
+        title={hero?.title || ""}
+        description={hero?.description || ""}
+      />
       <MaxWidthWrapper>
         <About
           title={about?.title || ""}
@@ -95,7 +100,48 @@ function page({ params: { service } }: any) {
       <div className="mb-20" />
       {isStack && (
         <>
-          <Stacks />
+          <Stacks
+            title={stacks?.title || ""}
+            description={stacks?.subtitle || ""}
+            images1={
+              stacks?.images1 || [
+                "/service-detail/stacks/1.png",
+                "/service-detail/stacks/2.png",
+                "/service-detail/stacks/3.png",
+                "/service-detail/stacks/4.png",
+                "/service-detail/stacks/5.png",
+                "/service-detail/stacks/6.png",
+                "/service-detail/stacks/7.png",
+                "/service-detail/stacks/8.png",
+                "/service-detail/stacks/1.png",
+                "/service-detail/stacks/2.png",
+                "/service-detail/stacks/3.png",
+                "/service-detail/stacks/4.png",
+                "/service-detail/stacks/5.png",
+                "/service-detail/stacks/6.png",
+                "/service-detail/stacks/7.png",
+                "/service-detail/stacks/8.png",
+              ]
+            }
+            images2={
+              stacks?.images2 || [
+                "/service-detail/stacks/9.png",
+                "/service-detail/stacks/10.png",
+                "/service-detail/stacks/11.png",
+                "/service-detail/stacks/12.png",
+                "/service-detail/stacks/13.png",
+                "/service-detail/stacks/14.png",
+                "/service-detail/stacks/15.png",
+                "/service-detail/stacks/9.png",
+                "/service-detail/stacks/10.png",
+                "/service-detail/stacks/11.png",
+                "/service-detail/stacks/12.png",
+                "/service-detail/stacks/13.png",
+                "/service-detail/stacks/14.png",
+                "/service-detail/stacks/15.png",
+              ]
+            }
+          />
           <div className="mb-20" />
         </>
       )}
@@ -104,7 +150,7 @@ function page({ params: { service } }: any) {
         <div className="mb-20">
           <Heading
             isCenter={false}
-            isblue={faq?.title || ""}
+            title={faq?.title || ""}
             subtitle={faq?.description || ""}
           />
           <FaqCards faqArray={faq?.content || []} />

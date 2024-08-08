@@ -131,7 +131,7 @@ export default function Contact() {
                       className="basis-1/2 sm:basis-1/3 md:basis-1/3 lg:basis-1/4"
                     >
                       <div
-                        className={`w-[130px] h-[80px] object-cover relative m-auto`}
+                        className={`w-[130px] h-[60px] sm:h-[70px] object-cover relative m-auto`}
                       >
                         <Image src={_} fill priority alt="" />
                       </div>
