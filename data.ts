@@ -398,40 +398,40 @@ export const serviceDetail: ServiceDetailType = {
       title: "SEO Technology Stack",
       subtitle:
         "Harness the power of our cutting-edge SEO toolkit to amplify your brand’s organic reach without incurring any additional cost per click.",
-        images1:[
-          "/service-detail/stacks/seo/1.png",
-          "/service-detail/stacks/seo/2.png",
-          "/service-detail/stacks/seo/3.png",
-          "/service-detail/stacks/seo/4.png",
-          "/service-detail/stacks/seo/5.png",
-          "/service-detail/stacks/seo/6.png",
-          "/service-detail/stacks/seo/7.png",
-          "/service-detail/stacks/seo/8.png",
-          "/service-detail/stacks/seo/1.png",
-          "/service-detail/stacks/seo/2.png",
-          "/service-detail/stacks/seo/3.png",
-          "/service-detail/stacks/seo/4.png",
-          "/service-detail/stacks/seo/5.png",
-          "/service-detail/stacks/seo/6.png",
-          "/service-detail/stacks/seo/7.png",
-          "/service-detail/stacks/seo/8.png",
-        ],
-        images2:[
-          "/service-detail/stacks/seo/9.png",
-          "/service-detail/stacks/seo/10.png",
-          "/service-detail/stacks/seo/11.png",
-          "/service-detail/stacks/seo/12.png",
-          "/service-detail/stacks/seo/13.png",
-          "/service-detail/stacks/seo/14.png",
-          "/service-detail/stacks/seo/15.png",
-          "/service-detail/stacks/seo/9.png",
-          "/service-detail/stacks/seo/10.png",
-          "/service-detail/stacks/seo/11.png",
-          "/service-detail/stacks/seo/12.png",
-          "/service-detail/stacks/seo/13.png",
-          "/service-detail/stacks/seo/14.png",
-          "/service-detail/stacks/seo/15.png",
-        ],
+      images1: [
+        "/service-detail/stacks/seo/1.png",
+        "/service-detail/stacks/seo/2.png",
+        "/service-detail/stacks/seo/3.png",
+        "/service-detail/stacks/seo/4.png",
+        "/service-detail/stacks/seo/5.png",
+        "/service-detail/stacks/seo/6.png",
+        "/service-detail/stacks/seo/7.png",
+        "/service-detail/stacks/seo/8.png",
+        "/service-detail/stacks/seo/1.png",
+        "/service-detail/stacks/seo/2.png",
+        "/service-detail/stacks/seo/3.png",
+        "/service-detail/stacks/seo/4.png",
+        "/service-detail/stacks/seo/5.png",
+        "/service-detail/stacks/seo/6.png",
+        "/service-detail/stacks/seo/7.png",
+        "/service-detail/stacks/seo/8.png",
+      ],
+      images2: [
+        "/service-detail/stacks/seo/9.png",
+        "/service-detail/stacks/seo/10.png",
+        "/service-detail/stacks/seo/11.png",
+        "/service-detail/stacks/seo/12.png",
+        "/service-detail/stacks/seo/13.png",
+        "/service-detail/stacks/seo/14.png",
+        "/service-detail/stacks/seo/15.png",
+        "/service-detail/stacks/seo/9.png",
+        "/service-detail/stacks/seo/10.png",
+        "/service-detail/stacks/seo/11.png",
+        "/service-detail/stacks/seo/12.png",
+        "/service-detail/stacks/seo/13.png",
+        "/service-detail/stacks/seo/14.png",
+        "/service-detail/stacks/seo/15.png",
+      ],
     },
     hero: {
       title: "SEO Services In Dubai: Your Copter To Great Heightsdd",
@@ -659,7 +659,7 @@ export const serviceDetail: ServiceDetailType = {
       title:
         "Our Social Media Technology Stack That Increases Social Media Attachment 10x Times!",
       subtitle: "",
-      images1:[
+      images1: [
         "/service-detail/stacks/smm/1.png",
         "/service-detail/stacks/smm/2.png",
         "/service-detail/stacks/smm/3.png",
@@ -677,7 +677,7 @@ export const serviceDetail: ServiceDetailType = {
         "/service-detail/stacks/smm/7.png",
         "/service-detail/stacks/smm/8.png",
       ],
-      images2:[
+      images2: [
         "/service-detail/stacks/smm/9.png",
         "/service-detail/stacks/smm/10.png",
         "/service-detail/stacks/smm/11.png",
@@ -854,7 +854,7 @@ export const serviceDetail: ServiceDetailType = {
       title:
         "The PPC Dubai Technology Stack That Increases Brand Visibility 10x Times!",
       subtitle: "",
-      images1:[
+      images1: [
         "/service-detail/stacks/ppc/1.png",
         "/service-detail/stacks/ppc/2.png",
         "/service-detail/stacks/ppc/3.png",
@@ -872,7 +872,7 @@ export const serviceDetail: ServiceDetailType = {
         "/service-detail/stacks/ppc/7.png",
         "/service-detail/stacks/ppc/8.png",
       ],
-      images2:[
+      images2: [
         "/service-detail/stacks/ppc/9.png",
         "/service-detail/stacks/ppc/10.png",
         "/service-detail/stacks/ppc/11.png",
@@ -1178,28 +1178,28 @@ export const serviceDetail: ServiceDetailType = {
       title: "OUR CUTTING-EDGE EMAIL MARKETING TECHNOLOGY STACK",
       subtitle:
         "As the best email marketing company in Dubai, our arsenal encompasses a plethora of innovative tools that help us craft compelling campaigns and drive skyrocketing engagement.",
-        images1: [
-          "/service-detail/stacks/email/1.png",
-          "/service-detail/stacks/email/2.png",
-          "/service-detail/stacks/email/3.png",
-          "/service-detail/stacks/email/4.png",
-          "/service-detail/stacks/email/5.png",
-          "/service-detail/stacks/email/1.png",
-          "/service-detail/stacks/email/2.png",
-          "/service-detail/stacks/email/3.png",
-          "/service-detail/stacks/email/4.png",
-          "/service-detail/stacks/email/5.png",
-        ],
-        images2: [
-          "/service-detail/stacks/email/6.png",
-          "/service-detail/stacks/email/7.png",
-          "/service-detail/stacks/email/8.png",
-          "/service-detail/stacks/email/9.png",
-          "/service-detail/stacks/email/6.png",
-          "/service-detail/stacks/email/7.png",
-          "/service-detail/stacks/email/8.png",
-          "/service-detail/stacks/email/9.png",
-        ],
+      images1: [
+        "/service-detail/stacks/email/1.png",
+        "/service-detail/stacks/email/2.png",
+        "/service-detail/stacks/email/3.png",
+        "/service-detail/stacks/email/4.png",
+        "/service-detail/stacks/email/5.png",
+        "/service-detail/stacks/email/1.png",
+        "/service-detail/stacks/email/2.png",
+        "/service-detail/stacks/email/3.png",
+        "/service-detail/stacks/email/4.png",
+        "/service-detail/stacks/email/5.png",
+      ],
+      images2: [
+        "/service-detail/stacks/email/6.png",
+        "/service-detail/stacks/email/7.png",
+        "/service-detail/stacks/email/8.png",
+        "/service-detail/stacks/email/9.png",
+        "/service-detail/stacks/email/6.png",
+        "/service-detail/stacks/email/7.png",
+        "/service-detail/stacks/email/8.png",
+        "/service-detail/stacks/email/9.png",
+      ],
     },
     hero: {
       title:
@@ -4957,6 +4957,12 @@ export const serviceDetail: ServiceDetailType = {
     isStack: true,
   },
   "translation-agency-dubai": {
+    about: {
+      title:
+        "Bridge The Language Gap: Why Trust Our Translation Company In Dubai?",
+      description: `Is language barrier becoming a roadblock for your business global expansion?
+Hear this, reaching out to your new audience in foreign countries requires businesses to be fluent in their languages. Only then you can broaden your market presence and capture a wide range of opportunities. That’s where our trusted translation agency in dubai comes in! We take your web pages to the next level by providing accurate and culturally relevant translations, so your message resonates powerfully with international audiences.`,
+    },
     stacks: {
       title: "A Peek Inside Our High-Tech Translation Toolkit",
       subtitle:
@@ -6993,7 +6999,10 @@ export const services = [
   {
     title: "Ecommerce Solutions",
     children: [
-      { title: "Ecommerce Solutions", href: "/services/ecommerce-web-development-dubai" },
+      {
+        title: "Ecommerce Solutions",
+        href: "/services/ecommerce-web-development-dubai",
+      },
       {
         title: "Woo Commerce Development",
         href: "/services/woo-commerce-development",
