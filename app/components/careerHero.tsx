@@ -45,10 +45,24 @@ export default function CareerHero({
             />
           </div>
           <div className="md:w-1/2 w-full mb-6 md:mb-0 p-4">
-            <div
+            {/* <div
               className={`xl:w-[600px] lg:w-[490px] md:w-[370px] w-full h-[300px]  md:h-[300px] relative`}
             >
               <Image src={"/careers/side-banner.webp"} fill priority alt="" />
+            </div> */}
+            <div
+              className="relative w-full"
+              style={{ paddingBottom: "56.25%" /* 16:9 Aspect Ratio */ }}
+            >
+              <Image
+                src="/careers/side-banner.webp"
+                layout="fill"
+                objectFit="contain"
+                alt="Career Banner"
+                priority
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                className="mt-5 sm:mt-0"
+              />
             </div>
           </div>
         </div>
