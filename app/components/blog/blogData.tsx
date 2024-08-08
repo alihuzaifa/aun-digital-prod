@@ -7890,6 +7890,7 @@ export function Blog33() {
           className="max-w-full h-auto"
         />
       </div>
+
       <ul className="list-disc ms-5 ">
         <li className="mb-1">
           Global Video Streaming Market Growth: According to a recent report by
@@ -7925,7 +7926,7 @@ export function Blog33() {
       </p>
       <div className="relative w-full md:h-[480px] h-[400px] my-3">
         <Image
-          src="/blog/detail/33.1.png"
+          src="/blog/detail/33.1.jpg"
           alt="Growth"
           layout="fill"
           objectFit="cover"

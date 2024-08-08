@@ -18,6 +18,7 @@ import {
   Blog23,
   Blog24,
   Blog25,
+  Blog26,
   Blog27,
   Blog28,
   Blog29,
@@ -143,6 +144,7 @@ function CommonHeader({
 
 export default function page({ params: { slug } }: any) {
   const checkBlogData = data.find((item) => item.pageKey === slug);
+  console.log("🚀 ~ page ~ checkBlogData:", checkBlogData, slug);
   if (!checkBlogData) return notFound();
   const checkIndexNo = data.findIndex((item) => item.pageKey === slug);
   const previousBlogData = data[checkIndexNo - 1];
@@ -191,20 +193,27 @@ export default function page({ params: { slug } }: any) {
             {slug == "google-circle-to-search" && <Blog19 />}
             {slug == "ramadan-working-hours-uae" && <Blog20 />}
             {slug == "real-estate-website-design" && <Blog21 />}
-            {slug == "wordpress-web-development-trends" && <Blog22 />}
+
+            {/* Verifying It Please */}
+            {slug == "types-of-ctas" && <Blog22 />}
             {slug == "best-home-internet-packages-dubai" && <Blog23 />}
             {slug == "best-ai-tools-for-businesses" && <Blog24 />}
             {slug == "best-practices-for-secure-web-development" && <Blog25 />}
-            {slug == "best-practices-for-secure-web-development" && <Blog25 />}
+            {slug == "best-practices-for-secure-web-development" && <Blog26 />}
             {slug == "tattoo-design-apps" && <Blog27 />}
             {slug == "website-redesign-costs-and-benefits" && <Blog28 />}
-            {slug == "benefits-of-custom-software-application-development" && <Blog29 />}
+            {slug == "benefits-of-custom-software-application-development" && (
+              <Blog29 />
+            )}
             {slug == "video-calling-apps-in-uae" && <Blog30 />}
             {slug == "best-instant-loan-apps-in-uae" && <Blog31 />}
             {slug == "content-marketing-mistakes" && <Blog32 />}
             {slug == "future-of-streaming" && <Blog33 />}
             {slug == "arabic-seo-guide" && <Blog34 />}
-            {slug == "four-vital-steps-for-businesses-to-accelerate-sales-in-2024" && <Blog35 />}
+            {slug ==
+              "four-vital-steps-for-businesses-to-accelerate-sales-in-2024" && (
+              <Blog35 />
+            )}
             <div className="my-3">
               <div className="flex justify-between items-center gap-x-3">
                 {checkIndexNo > 0 ? (

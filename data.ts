@@ -7202,8 +7202,8 @@ export const data = [
     imageSrc: "/blog/blog22.png",
     key: 2,
     date: "February 14, 2024",
-    href: "/blogs/wordpress-web-development-trends/",
-    pageKey: "wordpress-web-development-trends",
+    href: "/blogs/types-of-ctas/",
+    pageKey: "types-of-ctas",
     summary: "",
     home: "10 Types of Call to Action (CTAs) to Boost Website Conversions",
     content: [
