@@ -57,7 +57,7 @@ export default function CaseStudies({
       description:
         "Created an interactive and dynamic website and application aimed at reducing bounce rates",
       title: "Green Arch",
-      logo: "/case-study/logos/6.png",
+      logo: "/case-study/logos/11.png",
       bgmage: "/case-study/clients/6.jpg",
     },
     {
