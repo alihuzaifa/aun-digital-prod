@@ -86,7 +86,7 @@ export default function Hero({
             <div className="mt-[-60px]">
               <Heading subtitle={description} isCenter={false} />
             </div>
-            <div className="flex gap-x-3">
+            <div className="flex gap-3 flex-col sm:flex-row items-center sm:items-start">
               <Link href={"/about-us"}>
                 <CustomButton title="More About Us" />
               </Link>

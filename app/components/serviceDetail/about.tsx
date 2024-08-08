@@ -23,7 +23,7 @@ const About = ({
             title={title}
             subtitle={description}
           />
-          <div className="flex gap-x-3">
+          <div className="flex gap-3 flex-col sm:flex-row items-center sm:items-start">
             <Link href={"/about-us"}>
               <CustomButton title="More About Us"  />
             </Link>
