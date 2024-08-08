@@ -18,8 +18,16 @@ import {
   Blog23,
   Blog24,
   Blog25,
+  Blog27,
+  Blog28,
   Blog29,
   Blog3,
+  Blog30,
+  Blog31,
+  Blog32,
+  Blog33,
+  Blog34,
+  Blog35,
   Blog4,
   Blog5,
   Blog6,
@@ -47,17 +55,17 @@ type Props = {
   params: { slug: string };
 };
 
-// export async function generateMetadata({ params }: Props): Promise<Metadata> {
-//   const slug = params.slug;
-//   const pageMetadata = metadataJson[slug];
-//   return {
-//     ...pageMetadata,
-//     openGraph: {
-//       ...pageMetadata.openGraph,
-//       images: [...(pageMetadata.openGraph?.images || [])],
-//     },
-//   };
-// }
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const slug = params.slug;
+  const pageMetadata = metadataJson[slug];
+  return {
+    ...pageMetadata,
+    openGraph: {
+      ...pageMetadata.openGraph,
+      images: [...(pageMetadata.openGraph?.images || [])],
+    },
+  };
+}
 
 function CommonHeader({
   data: { imageSrc, summary, content, date, home },
@@ -134,11 +142,11 @@ function CommonHeader({
 }
 
 export default function page({ params: { slug } }: any) {
-  // const checkBlogData = data.find((item) => item.pageKey === slug);
-  // if (!checkBlogData) return notFound();
-  // const checkIndexNo = data.findIndex((item) => item.pageKey === slug);
-  // const previousBlogData = data[checkIndexNo - 1];
-  // const nextData = data[checkIndexNo + 1];
+  const checkBlogData = data.find((item) => item.pageKey === slug);
+  if (!checkBlogData) return notFound();
+  const checkIndexNo = data.findIndex((item) => item.pageKey === slug);
+  const previousBlogData = data[checkIndexNo - 1];
+  const nextData = data[checkIndexNo + 1];
 
   return (
     <section>
@@ -146,13 +154,13 @@ export default function page({ params: { slug } }: any) {
       <div className="bg-[#44326E29] w-full h-72 flex justify-center items-center">
         <MaxWidthWrapper>
           <></>
-          {/* <Heading title={checkBlogData?.title || ""} /> */}
+          <Heading title={checkBlogData?.title || ""} />
         </MaxWidthWrapper>
       </div>
       <MaxWidthWrapper>
         <div className="flex flex-wrap">
           <div className="md:w-[70%] w-full p-4 text-start flex flex-col pt-10">
-            {/* <CommonHeader data={checkBlogData || {}} /> */}
+            <CommonHeader data={checkBlogData || {}} />
             <Blog29 />
             {slug == "tips-to-localize-google-ads" && <Blog1 />}
             {slug == "islamic-new-year-holiday-uae" && <Blog2 />}
@@ -188,7 +196,16 @@ export default function page({ params: { slug } }: any) {
             {slug == "best-ai-tools-for-businesses" && <Blog24 />}
             {slug == "best-practices-for-secure-web-development" && <Blog25 />}
             {slug == "best-practices-for-secure-web-development" && <Blog25 />}
-            {/* <div className="my-3">
+            {slug == "tattoo-design-apps" && <Blog27 />}
+            {slug == "website-redesign-costs-and-benefits" && <Blog28 />}
+            {slug == "benefits-of-custom-software-application-development" && <Blog29 />}
+            {slug == "video-calling-apps-in-uae" && <Blog30 />}
+            {slug == "best-instant-loan-apps-in-uae" && <Blog31 />}
+            {slug == "content-marketing-mistakes" && <Blog32 />}
+            {slug == "future-of-streaming" && <Blog33 />}
+            {slug == "arabic-seo-guide" && <Blog34 />}
+            {slug == "four-vital-steps-for-businesses-to-accelerate-sales-in-2024" && <Blog35 />}
+            <div className="my-3">
               <div className="flex justify-between items-center gap-x-3">
                 {checkIndexNo > 0 ? (
                   <div className="flex flex-col gap-y-1">
@@ -217,7 +234,7 @@ export default function page({ params: { slug } }: any) {
                   </div>
                 )}
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="md:w-[30%] w-full p-4 text-start flex flex-col pt-10">
             <div className="mt-3" />
